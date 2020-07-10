@@ -49,10 +49,12 @@ public class Main {
              {9,5,1},
              {4,3,8}
      };
-   System.out.print(Problem7.checkMagicSquare(kark));*/
-
-     System.out.print(Problem9.friendlyOrNot(12));
-        }
-
-        }
+   System.out.print(Problem7.checkMagicSquare(kark));
+     System.out.print(Problem9.friendlyOrNot(12));*/
+     int [] arr1 = new int[] {1 , 2 , 3 ,45};
+        int [] arr2 = new int[] {12 , 22 , 3 ,45};
+        int [] arr3 = new int[] {13, 23, 3 ,45};
+        Problem11.oneArray(arr1, arr2, arr3);
+    }
+}
 
