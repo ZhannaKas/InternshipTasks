@@ -1,17 +1,40 @@
 package Problems;
 
 
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
 public class Problem1 {
 
-    public boolean palindrome (String text) {
-        String text2 = "";
-        StringBuilder sb = new StringBuilder();
-        text2 =  sb.append(text).reverse().toString();
-        if (text.equalsIgnoreCase(text2)) {
-            return true;
+    public static void palindrome () {
+
+        // TODO: If a word is a palindrome
+        try {
+            Pattern pattern = Pattern.compile("[Yy][Ee][Ss]");
+            Scanner sc = new Scanner(System.in);
+
+            while (true) {
+                System.out.println("Enter the word without spaces");
+                String word = sc.nextLine();
+                if (word.contains(" ")) {
+                    System.out.println("Enter the word without spaces");
+                }
+                else {
+                    StringBuilder sb = new StringBuilder(word).reverse();
+                    boolean isPalindrome = word.equalsIgnoreCase(sb.toString());
+                    System.out.println(isPalindrome ? "It's a palindrome" : "It's not a palindrome");
+                }
+                System.out.println("Want to try again?");
+                System.out.println("Enter yes if you want to continue or enter any symbol if no");
+                if (!sc.nextLine().matches(pattern.toString())) {
+                    break;
+                }
+            }
         }
-        else {
-            return false;
+
+        catch (Exception ex) {
+            System.out.println(ex.getMessage());
         }
     }
 }

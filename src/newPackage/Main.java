@@ -5,13 +5,14 @@ import Problems.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-     /*   Problem1 one = new Problem1();
-       boolean result = one.palindrome("ABABA");
-       System.out.println(result);
+  //  Problem1.palindrome();
+    Problem2.staircase();
+     /*
         Problem2 two = new Problem2();
         two.staircase(6);
         Problem3 three = new Problem3();
@@ -50,11 +51,27 @@ public class Main {
              {4,3,8}
      };
    System.out.print(Problem7.checkMagicSquare(kark));
-     System.out.print(Problem9.friendlyOrNot(12));*/
-     int [] arr1 = new int[] {1 , 2 , 3 ,45};
-        int [] arr2 = new int[] {12 , 22 , 3 ,45};
-        int [] arr3 = new int[] {13, 23, 3 ,45};
-        Problem11.oneArray(arr1, arr2, arr3);
+
+     System.out.print(Problem9.friendlyOrNot(12)); */
+
+    /*    Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.print("Enter a word without spaces: ");
+            String word = sc.next();
+            if (word.contains(" ")) {
+                System.out.println("It's not a word");
+            } else {
+                System.out.println("The word is correct");
+                StringBuilder reverse = new StringBuilder(word).reverse();
+                System.out.println(word.equalsIgnoreCase(reverse.toString()) ? "Palindrome" : "Not a palindrome");
+            }
+            System.out.println("Want to try another one?");
+            System.out.print("Enter yes if you want to continue or enter any symbol if no: ");
+            if (!sc.nextLine().matches("[Y|y][E|e][S|s]")) {
+                break;
+            }
+        } */
     }
 }
+
 

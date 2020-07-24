@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17895a10-7f19-4a20-afad-64e263a023c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="17895a10-7f19-4a20-afad-64e263a023c2" name="Default Changelist" comment="updated 1 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problems/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/Problem1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Problems/Problem11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/Problem11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Problems/Problem18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/Problem18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problems/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/Problem2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Problems/Problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/Problem9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newPackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newPackage/Main.java" afterDir="false" />
     </list>
@@ -70,8 +71,14 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/InternshipTasks" />
     </ignored-roots>
+    <MESSAGE value="updated 1 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated 1 2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2" timestamp="1595604586437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595604586437" />
     <state x="689" y="200" key="FileChooserDialogImpl" timestamp="1594385926878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -112,9 +119,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594385938461" />
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1594385835056">
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1595604381138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594385835056" />
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595604381138" />
+    <state x="230" y="53" key="new project wizard" timestamp="1594995090098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="53" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594995090098" />
   </component>
 </project>
