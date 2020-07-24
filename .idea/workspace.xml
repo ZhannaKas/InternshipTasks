@@ -75,10 +75,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated 1 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2" timestamp="1595604586437">
+    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2" timestamp="1595604711824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595604586437" />
+    <state x="244" y="46" width="1460" height="947" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595604711824" />
     <state x="689" y="200" key="FileChooserDialogImpl" timestamp="1594385926878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,6 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595604381138" />
+    <state x="738" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595604739868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595604739868" />
     <state x="230" y="53" key="new project wizard" timestamp="1594995090098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
