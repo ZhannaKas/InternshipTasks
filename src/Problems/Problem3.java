@@ -1,6 +1,7 @@
 package Problems;
 
 public class Problem3 {
+    //TODO: inverse array
     public float [] inverseArray (float [] array) {
         int sizeArray = array.length;
         float [] invesrsedArray = new float[sizeArray];

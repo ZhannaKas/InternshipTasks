@@ -10,8 +10,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Problem8.primeNumbers(15);
+       // System.out.println(Problem6.pi(6));
+       // Problem6.pi(0);
   //  Problem1.palindrome();
-    Problem2.staircase();
+  //  Problem2.staircase();
      /*
         Problem2 two = new Problem2();
         two.staircase(6);
@@ -22,8 +25,8 @@ public class Main {
             System.out.print(karl);
         int [] mass = new int[] {3,60,2,5};
         Problem5.oddEven(mass);
-        System.out.println(Problem6.pi(6));
-        Problem8.primeNumbers(6);
+
+
      System.out.println(Problem10.leapYear(1900));
         List<Integer> meow = new ArrayList<>();
         meow.add(1);

@@ -9,7 +9,7 @@ public class Problem1 {
 
     public static void palindrome () {
 
-        // TODO: If a word is a palindrome
+        // TODO: Is a word palindrome
         try {
             Pattern pattern = Pattern.compile("[Yy][Ee][Ss]");
             Scanner sc = new Scanner(System.in);

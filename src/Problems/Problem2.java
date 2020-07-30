@@ -2,9 +2,6 @@ package Problems;
 
 import java.util.Scanner;
 
-
-
-
 public class Problem2 {
     //TODO: Drawing a staircase
 

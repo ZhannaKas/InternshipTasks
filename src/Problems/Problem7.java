@@ -1,6 +1,7 @@
 package Problems;
 
 public class Problem7 {
+    //TODO: is a magic Square or not
 
 public static   boolean checkMagicSquare (int [][] array) {
     int variablePrevious = 0;

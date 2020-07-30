@@ -1,6 +1,7 @@
 package Problems;
 
 public class Problem4 {
+    //TODO: BubbleSort of an array
     public static void bubbleSort (int [] array) {
         int variable = 0;
         for (int i = 0; i<array.length; i++) {
