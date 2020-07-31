@@ -10,7 +10,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Problem8.primeNumbers(15);
+        int [] karl = new int[] {2, 5, 3, 4, 2, 2, 2, 4, 8, 2, 5, 3, 3, 3, 7};
+        Problem23.ascendedArray(karl);
+      //  Problem8.primeNumbers(15);
        // System.out.println(Problem6.pi(6));
        // Problem6.pi(0);
   //  Problem1.palindrome();
