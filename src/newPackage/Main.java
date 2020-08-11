@@ -10,8 +10,26 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int [] karl = new int[] {2, 5, 3, 4, 2, 2, 2, 4, 8, 2, 5, 3, 3, 3, 7};
-        Problem23.ascendedArray(karl);
+        int[][] kark = new int[][] {
+                {3,7,6}, //16
+                {9,5,1}, //15
+                {4,3,7}, //14
+        };
+
+        int kwak [][] = new int[][] {
+                {3, 7, 6, 5},
+                {10, 1, 3, 5},
+                {11, 1, 3, 5},
+              //  {3, 4, 3,}
+        };
+        Problem12.sort(kark);
+    /*    int [] array1 = new int[] {1,5,5};
+        int [] array2 = new int[] {2,6,7};
+        int [] array3 = new int[] {1,4,7,8};
+     System.out.println(Problem11.merged(array1,array2,array3)); */
+      // Problem9.friendlyPair(28);
+       // int [] karl = new int[] {5, 2, 4, 3, 3, 2, 7, 8, 1};  // {2, 5, 3, 4, 2, 2, 2, 4, 8, 2, 5, 3, 3, 3, 7};
+     //   Problem23.ascendedArray(karl);
       //  Problem8.primeNumbers(15);
        // System.out.println(Problem6.pi(6));
        // Problem6.pi(0);
@@ -54,7 +72,7 @@ public class Main {
              {3,7,6},
              {9,5,1},
              {4,3,8}
-     };
+     }
    System.out.print(Problem7.checkMagicSquare(kark));
 
      System.out.print(Problem9.friendlyOrNot(12)); */

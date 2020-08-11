@@ -13,8 +13,6 @@ public static   boolean checkMagicSquare (int [][] array) {
     }
     int rowSize = array.length;
 
-
-
         for (int i =0; i<rowSize; i++) {
             for (int j = 0; j<rowSize; j++) {
                 variablePrevious += array[i][j];
