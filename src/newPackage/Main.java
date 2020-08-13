@@ -10,7 +10,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int[][] kark = new int[][] {
+        Problem14.numbers(33);
+ /*       int[][] kark = new int[][] {
                 {3,7,6}, //16
                 {9,5,1}, //15
                 {4,3,7}, //14
