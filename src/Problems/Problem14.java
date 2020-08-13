@@ -1,6 +1,7 @@
 package Problems;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class Problem14 {
@@ -8,12 +9,7 @@ public class Problem14 {
 
     public static void numbers (int number) {
         ArrayList<Integer> list = new ArrayList<>();
-        ArrayList<Integer> coins = new ArrayList<Integer>();
-        coins.add(1);
-        coins.add(3);
-        coins.add(10);
-        coins.add(25);
-        coins.add(50);
+        ArrayList<Integer> coins = new ArrayList<>(Arrays.asList(1, 3, 10, 25, 50));
         coins.removeIf(elem-> elem > number);
 
             for (int j = coins.size() - 1; j>=0; j--) {
